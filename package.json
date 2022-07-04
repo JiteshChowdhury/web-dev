@@ -1,0 +1,34 @@
+{
+  "name": "web-dev",
+  "version": "1.0.0",
+  "source": ["src/index.html"],
+  "targets": {
+    "default": {
+      "distDir": "./docs",
+      "publicUrl": "./",
+      "sourceMap": false
+    }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel serve --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiteshChowdhury/web-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiteshChowdhury/web-dev/issues"
+  },
+  "homepage": "https://github.com/JiteshChowdhury/web-dev#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
